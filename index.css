@@ -1,0 +1,546 @@
+.aboutBody {
+    font-size: 20px;
+    padding: 5px;
+    font-weight: normal;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+table {
+    color: rgb(63, 63, 63);
+    font-family: Arial, sans-serif;
+    width: 75%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+    max-width: 700px;
+}
+
+table.contact {
+    color: rgb(63, 63, 63);
+    font-family: Arial, sans-serif;
+    width: 50%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+
+table.admin {
+    width: 30%;
+}
+
+table.dentist {
+    width: 70%;
+}
+
+.wrapper {
+    width: 350px;
+    padding: 20px;
+}
+
+body {
+    background-color: #faffff;
+    text-align: center;
+    margin: 0px;
+}
+
+td,
+th {
+    border: 1px solid #CCC;
+    height: 30px;
+    vertical-align: middle;
+    padding: 14px;
+}
+
+th {
+    background-color: #1a66ff;
+    font-weight: bold;
+    color: white;
+    box-shadow: #000000 5px;
+}
+
+td {
+    background: #FAFAFA;
+    text-align: center;
+}
+
+tr:nth-child(odd) td {
+    background: #E5E5E5;
+}
+
+.btn-group button:not(:last-child) {
+    border-right: none;
+    /* Prevent double borders */
+}
+
+
+/* Clear floats (clearfix hack) */
+
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+div.Account {
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    right: 0;
+    left: 0;
+    display: inline-block;
+}
+
+a.Account {
+    background-color: #b32400;
+    border: 2px solid #cccccc;
+    border-radius: 8px;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 5px 5px 4px #888888;
+}
+
+a.Account:hover,
+a.Account:active {
+    background-color: #991f00;
+}
+
+a {
+    text-decoration: none;
+}
+
+.notify,
+.clear,
+.delete,
+.add,
+.header,
+.setPassword,
+.edit {
+    color: white;
+    padding: 10px;
+    border: 2px solid #cccccc;
+    border-radius: 8px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.setPassword {
+    font-size: 15px;
+}
+
+.notify,
+.clear,
+.delete,
+.add,
+.header,
+table,
+.addInput,
+a.Account,
+.accountInput,
+.setPassword,
+.edit {
+    box-shadow: 2.5px 2.5px 2px #888888;
+}
+
+.notify:active,
+.clear:active,
+.delete:active,
+.add:active,
+.header:active,
+.Account:active,
+.edit:Active {
+    box-shadow: 2px 2px 2px #888888;
+}
+
+.notify {
+    background-color: #3377ff;
+}
+
+.setPassword {
+    background-color: #3377ff;
+    padding: 8px;
+}
+
+.clear,
+.add {
+    background-color: #4a9e4a;
+}
+
+.delete {
+    background-color: #c50505;
+}
+
+.edit {
+    background-color: #eb7100
+}
+
+.edit:hover {
+    background-color: #cf6502
+}
+
+.notify:hover,
+.setPassword:hover {
+    background-color: #1a66ff;
+}
+
+.clear:hover,
+.add:hover {
+    background-color: #2c8b2c;
+}
+
+.delete:hover {
+    background-color: #a50000;
+}
+
+.addInput {
+    border: 2px solid #cccccc;
+    border-radius: 4px;
+    height: 25px;
+    width: 100px;
+    font-size: 14pt;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    margin: 10px;
+}
+
+.emailInput {
+    height: 25px;
+    width: 200px;
+    margin: 10px;
+    font-size: 14.5px;
+    font-family: Arial, sans-serif;
+}
+
+.commentInput {
+    height: 100px;
+    width: 400px;
+    text-align: left;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    height: 25px;
+    width: 100px;
+    font-size: 25pt;
+    font-family: monaco, Consolas, Lucida Console, monospace;
+    border: 3px solid #cccccc;
+    padding: 10px;
+    border-radius: 15px 15px 15px 15px;
+    background-color: #05a8a8;
+    color: white;
+    overflow-wrap: normal;
+}
+
+.header:hover {
+    background-color: #008b8b;
+}
+
+.reset {
+    font-family: Arial, sans-serif;
+}
+
+.center {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.wrap {
+    display: inline;
+}
+
+.table {
+    display: table;
+    text-align: center;
+    width: 170px;
+    margin: 0 auto;
+}
+
+.row {
+    display: table-row;
+}
+
+.cell {
+    display: table-cell;
+    padding: 5px;
+    text-align: right;
+    vertical-align: middle;
+}
+
+.accountInput {
+    border: 2px solid #cccccc;
+    border-radius: 4px;
+    height: 25px;
+    width: 175px;
+    font-size: 14pt;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.accountLabel {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.alert {
+    color: red;
+    font-family: Arial;
+}
+
+.alertGood {
+    color: green;
+    font-family: Arial;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #1a66ff;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    justify-content: space-between;
+    font-size: 15px;
+    padding: 10px 10px 5px 0px;
+    align-items: center;
+    box-shadow: 0 3px 6px 0px #999;
+}
+
+.navbar a {
+    padding: 10px;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    border-radius: 15px;
+    color: white;
+}
+
+.navbar a:hover {
+    opacity: 0.85;
+}
+
+.navbarTitle a {
+    font-size: 30px;
+}
+
+.navbarTitle {
+    display: flex;
+    align-items: center;
+}
+
+.navbarRight {
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+.navbarTitle a {
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+}
+
+.login {
+    font-size: 15px;
+}
+
+.disclaimer {
+    position: fixed;
+    bottom: 0;
+    width: 75%;
+    text-align: center;
+    margin: auto;
+    font-size: 10px;
+    color: grey;
+    left: 50%;
+    margin-left: -37.75%;
+}
+
+.disclaimerRel {
+    position: relative;
+}
+
+.about {
+    width: 75%;
+    left: 50%;
+    margin-left: -37.75%;
+    text-align: center;
+    margin: auto;
+    background-color: #3377ff;
+    font-family: Arial, sans-serif;
+    padding: 5px;
+    border-radius: 30px;
+    color: white;
+    box-shadow: 5px 5px 4px #888888;
+    margin-bottom: 15px;
+}
+
+.aboutButtons {
+    background-color: #666666;
+}
+
+.aboutHeader {
+    font-size: 30px;
+}
+
+.aboutSubHeader {
+    font-size: 20px;
+    text-align: center;
+    left: 50%;
+    margin: auto;
+    display: inline;
+}
+
+.notify2,
+.clear2,
+.delete2,
+.add2,
+.header2,
+.setPassword2,
+.edit2 {
+    color: white;
+    padding: 10px;
+    border: 2px solid #cccccc;
+    border-radius: 8px;
+    color: white;
+    font-size: 20px;
+    cursor: default;
+    vertical-align: middle;
+}
+
+.notify2 {
+    background-color: #3377ff;
+}
+
+.setPassword2 {
+    background-color: #3377ff;
+    padding: 8px;
+}
+
+.clear2,
+.add2 {
+    background-color: #4a9e4a;
+}
+
+.delete2 {
+    background-color: #c50505;
+}
+
+.edit2 {
+    background-color: #eb7100
+}
+
+@media screen and (max-width: 500px) {
+    td,
+    th {
+        border: 1px solid #CCC;
+        height: 10px;
+        vertical-align: middle;
+        padding: 7px;
+    }
+    table {
+        font-size: 20px;
+    }
+    a.Account {
+        padding: 15px;
+        font-size: 10px;
+    }
+    .notify,
+    .clear,
+    .delete,
+    .add,
+    .header,
+    .setPassword,
+    .edit {
+        padding: 9px;
+        font-size: 13px;
+    }
+    .setPassword {
+        background-color: #3377ff;
+        padding: 5px;
+    }
+    .addInput {
+        height: 25px;
+        width: 100px;
+        margin: 10px;
+    }
+    .header {
+        font-size: 25pt;
+    }
+    .table {
+        display: table;
+        text-align: center;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .row {
+        display: table-row;
+    }
+    .cell {
+        display: table-cell;
+        padding: 5px;
+        text-align: right;
+        vertical-align: middle;
+    }
+    .accountInput {
+        height: 25px;
+        width: 175px;
+        font-size: 14pt;
+    }
+    .accountLabel {
+        font-size: 18px;
+    }
+    .navbar {
+        font-size: 15px;
+        padding: 10px 10px 5px 0px;
+    }
+    .navbar a {
+        padding: 10px;
+        border-radius: 15px;
+    }
+    .navbarTitle a {
+        padding: 0px;
+        
+    }
+    .navbarRight {
+        font-size: 13px;
+        font-weight: bold;
+        text-align: left;
+        padding: 10px;
+    }
+    .setPassword2 {
+        font-size: 12px;
+    }
+    .emailInput {
+        height: 25px;
+        width: 200px;
+        margin: 10px;
+        font-size: 14.5px;
+    }
+    .commentInput {
+        height: 100px;
+        width: 200px;
+        text-align: left;
+    }
+    .navbar {
+        display: inline-block;
+        text-align: center;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+     .disclaimer {
+        width: 95%;
+        font-size: 5px;
+    }
+}
